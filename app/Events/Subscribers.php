@@ -42,7 +42,7 @@ class Subscribers implements ShouldBroadcast
 
         $topic = $this->topic;
 
-        return ["$topic"];
+        return [$topic];
 
     }
 

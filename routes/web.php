@@ -13,14 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
-
-Route::get('test', function () {
-    event(new App\Events\Subscribers('Someone hhjhhjhj','status-liked'));
-    return "Event has been sent!";
-});
-
 Route::get('/{any}','TopicController@returnSubscription')->where('any', '.*');
