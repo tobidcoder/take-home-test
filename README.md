@@ -1,3 +1,38 @@
+Run: git clone https://github.com/tobidcoder/take-home-test.git
+
+Then: cd take-home-test
+
+Then : composer install
+
+Then
+
+npm install
+
+Then: Create database take-home-test
+
+cp .env.example .env
+
+Change database name in .env to take-home-test
+Run
+
+php artisan key:generate
+
+php artisan migrate
+
+Then
+
+Finally Run
+
+php artisan serve
+
+<p> Happy testing. </p> 
+
+Routes:
+    POST: http://127.0.0.1:8000/api/publish/{topic} 
+    POST: http://127.0.0.1:8000/api/subscribe/{topic}
+    GET: Subscriber Url e.g http://127.0.0.1:9000/api/test1
+
+    
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
