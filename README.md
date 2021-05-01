@@ -30,7 +30,7 @@ php artisan serve
 Routes:
     POST: http://127.0.0.1:8000/api/publish/{topic} 
     POST: http://127.0.0.1:8000/api/subscribe/{topic}
-    GET: Subscriber Url e.g http://127.0.0.1:9000/api/test1
+    GET: Subscriber Url e.g http://127.0.0.1:9000/test1
 
     
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
